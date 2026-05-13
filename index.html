@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Uma surpresa para você ❤️</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- FUNDO -->
+  <div class="background-glow"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h1 id="coupleName"></h1>
+
+    <p id="surpriseText"></p>
+
+    <button class="btn" id="surpriseBtn">
+      Clique apenas se estiver pronta ❤️
+    </button>
+
+  </section>
+
+  <!-- FRASES -->
+  <section class="hidden reveal-section">
+
+    <div class="quote-box">
+      <p class="quote">
+        "Seus olhos me prenderam..."
+      </p>
+    </div>
+
+  </section>
+
+  <section class="hidden reveal-section">
+
+    <div class="quote-box">
+      <p class="quote">
+        "E seu sorriso virou paz pra mim."
+      </p>
+    </div>
+
+  </section>
+
+  <!-- TEXTO -->
+  <section class="hidden">
+
+    <h2 class="title">
+      Uma mensagem pra você 💌
+    </h2>
+
+    <div class="texto">
+      <span id="typed-text"></span>
+    </div>
+
+  </section>
+
+  <!-- GALERIA -->
+  <section class="hidden">
+
+    <h2 class="title">
+      Fotos 📸
+    </h2>
+
+    <div class="gallery"></div>
+
+  </section>
+
+  <!-- CONTADOR -->
+  <section id="contador" class="hidden">
+
+    <h2 class="title">
+      O tempo desde esse sentimento ⏳
+    </h2>
+
+    <div class="contador">
+
+      <div class="box">
+        <h3 id="dias">0</h3>
+        <span>Dias</span>
+      </div>
+
+      <div class="box">
+        <h3 id="horas">0</h3>
+        <span>Horas</span>
+      </div>
+
+      <div class="box">
+        <h3 id="minutos">0</h3>
+        <span>Minutos</span>
+      </div>
+
+      <div class="box">
+        <h3 id="segundos">0</h3>
+        <span>Segundos</span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PEDIDO -->
+  <section class="hidden final-section">
+
+    <h2 class="final-title">
+      Então me responde uma coisa...
+    </h2>
+
+    <h1 class="pedido">
+      Lívia, você aceita namorar comigo? ❤️
+    </h1>
+
+    <button class="btn final-btn" onclick="explosion()">
+      ❤️
+    </button>
+
+  </section>
+
+  <!-- AUDIO -->
+  <audio id="music"></audio>
+
+  <!-- CONFIG -->
+  <script src="config/config.js"></script>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
